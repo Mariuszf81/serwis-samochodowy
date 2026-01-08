@@ -1,0 +1,18 @@
+CREATE TABLE klienci (
+    id_klienta INT PRIMARY KEY,
+    imie VARCHAR(50),
+    nazwisko VARCHAR(50),
+    telefon VARCHAR(15)
+);
+
+INSERT INTO klienci VALUES
+(1, 'Jan', 'Kowalski', '123456789'),
+(2, 'Anna', 'Nowak', '987654321'),
+(3, 'Piotr', 'Wiśniewski', '555111222'),
+(4, 'Kasia', 'Mazur', '555222333'),
+(5, 'Tomasz', 'Kaczmarek', '555333444'),
+(6, 'Magda', 'Dąbrowska', '555444555'),
+(7, 'Michał', 'Zieliński', '555666777'),
+(8, 'Ola', 'Szymańska', '555777888'),
+(9, 'Paweł', 'Woźniak', '555888999'),
+(10, 'Natalia', 'Lewandowska', '555999000');
